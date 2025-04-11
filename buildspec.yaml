@@ -6,8 +6,9 @@ phases:
       python: 3.11
     commands:
       - echo Installing dependencies...
-      - pip install -r requirements.txt
+      - pip install -r my-python-app/requirements.txt
+
   build:
     commands:
       - echo Running Python script...
-      - python main.py
+      - python my-python-app/main.py
